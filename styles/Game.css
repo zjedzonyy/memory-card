@@ -1,0 +1,6 @@
+.game {
+    max-width: 1400px;
+    margin: 10% auto;
+    background-color: rgb(32, 58, 49);
+    padding: 2rem 2rem;
+}
