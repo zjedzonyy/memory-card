@@ -1,14 +1,14 @@
 import '../styles/Scoreboard.css'
 
-export default function Scoreboard() {
+export default function Scoreboard({ currentScore, bestScore }) {
 
     return(
         <div className="scoreboard">
             <div className="current-score">
-                CURRENT SCORE
+                CURRENT SCORE: {currentScore}
             </div>
             <div className="best-score">
-                BEST SCORE
+                BEST SCORE: {bestScore}
             </div>
         </div>
     )

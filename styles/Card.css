@@ -2,11 +2,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 300px;
+    width: 350px;
     height: 300px;
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
     padding: 1rem;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transition: transform 0.2s, box-shadow 0.2s;
+    overflow: hidden;
+    color: black;
     margin-bottom: 2rem;
 }
 
@@ -29,3 +32,14 @@
     box-shadow: 1px solid black;
 }
 
+.fruit-name {
+    width: 100%;
+    padding: 10px;
+    background: #a8a8a8;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+
+
+ 

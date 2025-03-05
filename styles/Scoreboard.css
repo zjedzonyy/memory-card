@@ -1,0 +1,29 @@
+/* Scoreboard.css */
+.scoreboard {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background: #222;
+    color: #fff;
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .current-score,
+  .best-score {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+
+
+@media (max-width: 500px) {
+    .scoreboard {
+        flex-direction: column;
+        padding: 0;
+    }
+}

@@ -1,8 +1,13 @@
 .gameboard {
     width: 100%;
     display: grid;
-    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 2fr 2fr; */
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     justify-items: center;
+}
+
+@media (max-width: 500px) {
+    .gameboard {
+        margin: 0;
+        gap: 0;
+    }
 }

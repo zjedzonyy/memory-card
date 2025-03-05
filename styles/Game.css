@@ -1,6 +1,38 @@
 .game {
-    max-width: 1400px;
-    margin: 10% auto;
-    background-color: rgb(32, 58, 49);
-    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto auto;
+    background-color: rgb(238, 187, 120);
+    width: 100%;
+    padding-top: 2rem;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: auto auto;
+    height: 100%;
+}
+
+
+#headlessui-portal-root {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg); 
+    transform-origin: center; 
+    text-align: center;
+    background-color: rgb(68, 64, 90);
+    padding: 1rem;
+    z-index: 2;
+    border-radius: 8px;
+  }
+
+#headlessui-portal-root div {
+    margin: auto auto;    
 }
